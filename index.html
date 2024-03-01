@@ -6,38 +6,60 @@
     <!-- RT: CDN Link for ZURB Foundation - CSS Framework -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/css/foundation.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="./Assets/Style.css">
+    <link rel="stylesheet" href="./Assets/reset.css">
     <link rel="stylesheet" href="index.css">
-    <title>Project Webpage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.cdnfonts.com/css/gluten" rel="stylesheet">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/gluten');
+        </style>
+    <title>RAC Metals Gold Prices</title>
 </head>
 <body>
   <!-- RT:  Navigation Header from ZURB Foundation Framework -->
-  <header id="header" class="topbar-sticky-shrink-header">
-  </header>
-  
-  <div data-sticky-container>
-    <div data-sticky data-margin-top='0' data-top-anchor="header:bottom" data-btm-anchor="content:bottom">
-      <div class="top-bar topbar-sticky-shrink">
-        <div class="top-bar-title">
-          <h1> Meet the founders</h1>
-        </div>
-        <div class="top-bar-right">
-          <ul class="menu">
-            <li><a href="https://github.com/csj5118">Christopher Joo </a></li>
-            <li><a href="https://github.com/rdtauche">Ross Tauchert</a></li>
-            <li><a href="https://github.com/kamranana">Ana Kamran</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
+ <!-- mobile nav bar -->
+<div class="title-bar topbar-center-logo-mobile" data-responsive-toggle="topbar-center-logo" data-hide-for="medium">
+  <div class="title-bar-left">
+    <div class="title-bar-title"><img src="./Assets/Team RAC Metals logo.png" alt="" /></div>
   </div>
-  
+  <div class="title-bar-right">
+    <button class="menu-icon" type="button" data-toggle="topbar-center-logo"></button>
+  </div>
+</div>
+<!-- /mobile nav bar -->
+
+<!-- medium and larger nav bar -->
+<div class="top-bar topbar-center-logo" id="topbar-center-logo">
+  <div class="top-bar-left">
+    <ul class="menu vertical medium-horizontal">
+      <li><a href="#goldPrices">Gold Prices</a></li>
+      <li><a href="#Promotional">Promotional</a></li>
+      <li><a href="#Maps">Maps</a></li>
+    </ul>
+  </div>
+  <div class="top-bar-center">
+    <a href="#"><img src="./Assets/Team RAC Metals logo.png" alt="" /></a>
+  </div>
+  <div class="top-bar-right">
+    <ul class="menu vertical medium-horizontal">
+      <li><a href="https://github.com/csj5118">Chris Joo</a></li>
+      <li><a href="https://github.com/rdtauche">Ross Tauchert</a></li>
+      <li><a href="https://github.com/kamranana">Ana Kamran</a></li>
+    </ul>
+  </div>
+</div>
+
+  <br/> 
+  <img src="./Assets/design.png" alt="" />
 <h1> About Us</h1>
   <p> Welcome to our Website! Team RAC Metals would like to present you the opportunity to easily find gold prices! For the special loved ones, we learned people have tendencies to do last minute shoppings and usually go into stores blind. However, with our website, we a providing an opportunity for you to find out the modern day gold prices and have an estimate of how much you as the consumer should be spending! </p>
 
 
   <br />
+
+
   <!-- RT: Container from ZURB Foundation Framework -->
-  <table class="table-expand">
+  <table class="table-expand" id="goldPrices">
     <thead>
       <tr class="table-expand-row">
         <th width="200">Karats</th>
@@ -51,8 +73,7 @@
         <td class="text-right">$0.50</td>
         <td>in progress <span class="expand-icon"></span></td>
       </tr>
-  
-  
+ 
       <tr class="table-expand-row" data-open-details>
         <td>14k</td>
         <td class="text-right">$1.30</td>
@@ -83,9 +104,52 @@
        
     </tbody>
   </table>
+  <!-- RT: added YouTube section -->
+  <div class="responsive-blog-post" id="Promotional">
+    <div class="individual-post">
+      <h4>Promotional Video</h4>
+      <p class="date">Date</p>
+      <img src="https://placehold.it/1200x650">
+      <p> First few sentences of blog post show here and then eventually cuts out. First few sentences of blog post show here and then eventually cuts out. First few sentences of blog post show here and then eventually cuts out...</p>
+      <a class="button" href="#">Read On</a>
+    </div>
+  </div>
+
   
-  
-  
+<!-- Footer PLaceholder from ZURB Foundation -->
+<section class="contact-us-section">
+  <div class="row medium-unstack">
+    <div class="columns contact-us-section-left">
+      <h1 class="contact-us-header">Find a Jewelry Store Near You</h1>
+      <div class="responsive-embed">
+        <img src="https://maps.googleapis.com/maps/api/staticmap?center=campbell&zoom=13&scale=false&size=600x300&maptype=roadmap&sensor=false&format=png&visual_refresh=true" alt="Google Map of campbell" alt="" />
+      </div>
+
+      <ul class="contact-us-list">
+        <li class="address">100 W Rincon Ave, Campbell CA 95008</li>
+        <li class="email"><a href="mailto:">hello@yeticave.com</a></li>
+        <li class="phone">
+          1 (408) 445 9978
+        </li>
+      </ul>
+    </div>
+    <div class="columns contact-us-section-right">
+      <h1 class="contact-us-header">Mail Us</h1>
+      <form class="contact-us-form">
+        <input type="text" placeholder="Full name">
+        <input type="email" placeholder="Email">
+        <textarea name="message" id="" rows="12" placeholder="Type your message here"></textarea>
+        <div class="contact-us-form-actions">
+          <input type="submit" class="button" value="Send it" />
+          <div>
+            <label for="FileUpload" class="button contact-us-file-button">Attach Files</label>
+            <input type="file" id="FileUpload" class="show-for-sr">
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
 
 
 <!-- RT: CDN Link for ZURB Foundation CSS Framework -->
