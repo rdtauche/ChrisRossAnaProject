@@ -29,6 +29,56 @@ a img {
   width: 300px;
 }
 
+/* YouTube Video section */
+
+.responsive-blog-post {
+  margin-bottom: 4rem;
+}
+
+.responsive-blog-post p {
+  color: #8a8a8a;
+}
+
+.responsive-blog-post .button {
+  padding: 0.85rem 3rem;
+  background: #1779ba;
+}
+
+.responsive-blog-post .button:hover {
+  background-color: #146aa3;
+  transition: color 0.3s ease-in;
+}
+
+.responsive-blog-post .individual-post {
+  margin-bottom: 4rem;
+}
+
+.responsive-blog-post h4 {
+  margin-bottom: 0;
+}
+
+.responsive-blog-post h4:hover {
+  text-decoration: underline;
+  transition: color 0.3s ease-in;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .responsive-blog-post h4 {
+    font-size: 1.5rem;
+  }
+}
+
+.responsive-blog-post img {
+  margin-bottom: 1.5rem;
+}
+
+.responsive-blog-post .date {
+  font-size: 0.8rem;
+  color: #8a8a8a;
+}
+
+
+
 @media screen and (max-width: 39.9375em) {
   .topbar-center-logo .top-bar-center {
     display: none;
@@ -45,41 +95,6 @@ a img {
 .topbar-center-logo-mobile .menu-icon {
   vertical-align: text-top;
 }
-
-
-
-/* .topbar-sticky-shrink {
-    padding: 2rem;
-    transition: padding 0.25s ease;
-    background: lightgrey;
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  .topbar-sticky-shrink .menu {
-    background: lightgrey;
-  }
-  
-  .is-stuck .topbar-sticky-shrink {
-    padding: 1rem;
-    transition: padding 0.25s ease;
-  }
-  
-  [data-sticky] {
-    width: 100%;
-  }
-  
-  .topbar-sticky-shrink-header {
-    padding: 10rem 0;
-    background: url("https://placehold.it/2000x500&text=this is a header") center center no-repeat;
-    background-size: cover;
-  } */
-  
-
-  
-
-  
 
   
   @-webkit-keyframes fadeIn {
