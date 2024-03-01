@@ -3,16 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- RT: CDN Link for ZURB Foundation - CSS Framework -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/css/foundation.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="./Assets/Style.css">
+    <link rel="stylesheet" href="index.css">
     <title>Project Webpage</title>
 </head>
 <body>
-    
+  <!-- RT:  Navigation Header from ZURB Foundation Framework -->
+  <header id="header" class="topbar-sticky-shrink-header">
+  </header>
+  
+  <div data-sticky-container>
+    <div data-sticky data-margin-top='0' data-top-anchor="header:bottom" data-btm-anchor="content:bottom">
+      <div class="top-bar topbar-sticky-shrink">
+        <div class="top-bar-title">
+          <img src="https://placehold.it/150x38" alt="" />
+        </div>
+        <div class="top-bar-right">
+          <ul class="menu">
+            <li><a href="#">Thing 1</a></li>
+            <li><a href="#">Thing 2</a></li>
+            <li><a href="#">Thing 3</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <br />
+  
+  <div class="column row" id="content">
+    <h3 class="text-center">Creating a sticky Navigation Menu with Top Bar!</h3>
+    <img src="https://placehold.it/1200x300&text=content/100">
+    <img src="https://placehold.it/1200x300&text=content/200">
+    <img src="https://placehold.it/1200x300&text=content/300">
+    <img src="https://placehold.it/1200x300&text=content/400">
+    <img src="https://placehold.it/1200x300&text=content/500">
+    <img src="https://placehold.it/1200x300&text=content/600">
+  </div>
+  
+  
 
 
 
-
-
+<!-- RT: CDN Link for ZURB Foundation CSS Framework -->
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/js/foundation.min.js" crossorigin="anonymous"></script>
+  <!-- RT:  Added link to the jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="./Assets/Script.js"></script>
 </body>
 </html>
