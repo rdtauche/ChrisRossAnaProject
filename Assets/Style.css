@@ -1,16 +1,64 @@
 
 /* RT: Navigation Header from ZURB Foundation Framework */
-.topbar-sticky-shrink {
+
+.topbar-center-logo {
+  background: black;
+}
+
+.topbar-center-logo .menu {
+  background: black;
+}
+
+.topbar-center-logo .menu a {
+  color: #fefefe;
+}
+
+.topbar-center-logo .top-bar-center {
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+.topbar-center-logo-mobile {
+  background: #2c3840;
+  display: none;
+}
+
+a img {
+  border: 0;
+  width: 300px;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .topbar-center-logo .top-bar-center {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 39.9375em) {
+.topbar-center-logo-mobile {
+  display: show;
+  background: #2c3840;
+}
+}
+
+.topbar-center-logo-mobile .menu-icon {
+  vertical-align: text-top;
+}
+
+
+
+/* .topbar-sticky-shrink {
     padding: 2rem;
     transition: padding 0.25s ease;
-    background: #2c3840;
+    background: lightgrey;
     position: fixed;
     top: 0;
     width: 100%;
   }
   
   .topbar-sticky-shrink .menu {
-    background: #2c3840;
+    background: lightgrey;
   }
   
   .is-stuck .topbar-sticky-shrink {
@@ -26,7 +74,7 @@
     padding: 10rem 0;
     background: url("https://placehold.it/2000x500&text=this is a header") center center no-repeat;
     background-size: cover;
-  }
+  } */
   
 
   
