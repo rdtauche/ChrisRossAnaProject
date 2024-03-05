@@ -11,14 +11,14 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-fetch("https://www.goldapi.io/api/XAU/USD/20240301", requestOptions)
-  .then(response => response.text())
+fetch("https://www.goldapi.io/api/XAU/USD", requestOptions)
+  .then(response => response.json())
   .then(
     displayData)
     .catch(err.alert('Wrong City'));
 
   // Function to diplay weather on html document
 function displayData(metal) {
-    desc.innerText=`${metal}`
+    desc.innerText=`${metal.price}`
   
   }
