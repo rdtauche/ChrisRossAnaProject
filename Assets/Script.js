@@ -4,6 +4,11 @@ var price14k = document.querySelector(".price14k");
 var price18k = document.querySelector(".price18k");
 var price22k = document.querySelector(".price22k");
 var price24k = document.querySelector(".price24k");
+var silver10k = document.querySelector(".silver10k");
+var silver14k = document.querySelector(".silver14k");
+var silver18k = document.querySelector(".silver18k");
+var silver22k = document.querySelector(".silver22k");
+var silver24k = document.querySelector(".silver24k");
 var tag = document.createElement('script');
 
 var myHeaders = new Headers();
@@ -19,11 +24,14 @@ var requestOptions = {
 fetch("https://www.goldapi.io/api/XAU/USD", requestOptions)
   .then(response => response.json())
   .then(
-    displayData)
-    .catch(err.alert('Wrong Price'));
-
-  // Function to diplay weather on html document
-function displayData(metal) {
+    displayData1)
+    // .catch(err.alert('Wrong Price'));
+    .catch(function(err){
+      alert(err,"Wrong Price")
+    });
+  // Function to diplay gold prices on html document
+function displayData1(metal) {
+  console.log(metal, "---")
     price10k.innerText=`${metal.price_gram_10k}`
     price14k.innerText=`${metal.price_gram_14k}`
     price18k.innerText=`${metal.price_gram_18k}`
@@ -32,6 +40,25 @@ function displayData(metal) {
 
   }
 
+  // RT:  silver prices
+  fetch("https://www.goldapi.io/api/XAG/USD", requestOptions)
+  .then(response => response.json())
+  .then(
+    displayData2)
+    // .catch(err.alert('Wrong Price'));
+    .catch(function(err){
+      alert(err,"Wrong Price")
+    });
+  // Function to diplay silver prices on html document
+function displayData2(metal) {
+  console.log(metal)
+    silver10k.innerText=`${metal.price_gram_10k}`
+    silver14k.innerText=`${metal.price_gram_14k}`
+    silver18k.innerText=`${metal.price_gram_18k}`
+    silver22k.innerText=`${metal.price_gram_22k}`
+    silver24k.innerText=`${metal.price_gram_24k}`
+
+  }
 
 
 
