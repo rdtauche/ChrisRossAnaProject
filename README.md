@@ -3,15 +3,15 @@ This is our first team project for CU Full Stack Development between Chris Joo, 
 
 ## Project Description
 
-As a Jewelry Store Owner, we want to display the price of precious metals (like gold & silver) on our store page, as well as offer Google Maps capability so potential clients can find our store locations.  We also want to integrate with YouTube to display promotional videos and offers.  This will be achieved by the use of server-side APIs & a CSS framework other than Bootstrap.
+As a Jewelry Consumer, we want to display the current price of gold on our website, offer promotional videos via YouTube, as well as Google Maps capability so potential clients can find jewelry store locations, so that consumers can be informed on prices before entering a shop.  This will be achieved by the use of server-side APIs & a CSS framework other than Bootstrap.
 
-GIVEN I am a Jewelry Store Shop Owner
+GIVEN I am a Jewelry Store Consumer
 WHEN I open the website
-THEN the current price of Gold & Silver displays
+THEN the current price of Gold displays
 WHEN I scroll down
 THEN I am presented with promotional ads via YouTube
 WHEN I scroll down further
-THEN i am presented with google maps identifying the location of our stores
+THEN i am presented with google maps identifying the location of jewelry stores
 
 Link to full requirements for challenge:  https://bootcampspot.instructure.com/courses/5008/pages/7-roadmap?module_item_id=1182374
 
@@ -22,14 +22,14 @@ Link to full requirements for challenge:  https://bootcampspot.instructure.com/c
     3. Once complete, go to pages and deploy the website live
 
 ## My Results
-    1. My Github Repo:  https://github.com/rdtauche/ChrisRossAnaProject
-    2. My Pages Deploy: <enter once deployed>
-    3. Screenshot of my live pages site: <enter once deployed>
+    1. Our Github Repo:  https://github.com/rdtauche/ChrisRossAnaProject
+    2. Our Pages Deploy: https://rdtauche.github.io/ChrisRossAnaProject/
+    3. Screenshot of our live pages site: ![image](https://github.com/rdtauche/ChrisRossAnaProject/assets/57552771/ef504055-3daa-40d2-82dd-b84e6939e3f4)
 
 
 ## Usage
 
-Create a website for our Jewelry Store, where clients can come to view latest product offerings, price of gold & silver and view promotional videos.
+Create a website for our Jewelry Store consumer, where clients can come to view latest gold price, view promotional videos, and locate jewelry stores so they become informed consumers upon entering a store.
 
 ## Credits
 We used the following APIs for our project:
