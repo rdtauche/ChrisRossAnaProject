@@ -12,7 +12,7 @@ var silver24k = document.querySelector(".silver24k");
 var tag = document.createElement('script');
 
 var myHeaders = new Headers();
-myHeaders.append("x-access-token", "goldapi-90ztrlt55ljoy-io");
+myHeaders.append("x-access-token", "goldapi-snjrwf2sltf1m8qw-io");
 myHeaders.append("Content-Type", "application/json");
 
 var requestOptions = {
