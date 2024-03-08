@@ -18,6 +18,11 @@
   text-align: center;
 }
 
+.youtube {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
 /* RT: Navigation Header from ZURB Foundation Framework */
 
 .topbar-center-logo {
