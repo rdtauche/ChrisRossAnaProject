@@ -1,9 +1,9 @@
-# ChrisRossAnaProject
+# Team RAC Metals
 This is our first team project for CU Full Stack Development between Chris Joo, Ana Kamran &amp; Ross Tauchert
 
 ## Project Description
 
-As a Jewelry Consumer, we want to display the current price of gold on our website, offer promotional videos via YouTube, as well as Google Maps capability so potential clients can find jewelry store locations, so that consumers can be informed on prices before entering a shop.  This will be achieved by the use of server-side APIs & a CSS framework other than Bootstrap.
+As a Jewelry Consumer, we want to display the current price of gold & silver on our website, offer promotional videos via YouTube, as well as Google Maps capability so potential clients can find jewelry store locations, so that consumers can be informed on prices before entering a shop.  This will be achieved by the use of server-side APIs & a CSS framework other than Bootstrap.
 
 GIVEN I am a Jewelry Store Consumer
 WHEN I open the website
@@ -23,7 +23,7 @@ Link to full requirements for challenge:  https://bootcampspot.instructure.com/c
 
 ## My Results
     1. Our Github Repo:  https://github.com/rdtauche/ChrisRossAnaProject
-    2. Our Pages Deploy: https://rdtauche.github.io/ChrisRossAnaProject/
+    2. Our Pages Deploy: https://rdtauche.github.io/TeamRACMetals/
     3. Screenshot of our live pages site: ![image](https://github.com/rdtauche/ChrisRossAnaProject/assets/57552771/ef504055-3daa-40d2-82dd-b84e6939e3f4)
 
 
@@ -36,7 +36,7 @@ We used the following APIs for our project:
 1. JQuery: https://code.jquery.com/jquery-3.5.1.min.js
 2. CSS Framework ZURB Foundation: https://get.foundation/index.html
 3. Gold API:  https://www.goldapi.io/ 
-4. Google Maps API: 
+4. Google Maps API: we took some suggested example javascript that google api website offered, and modified it to suit our needs 
 
 
 ## License
