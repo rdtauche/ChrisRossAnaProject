@@ -62,7 +62,7 @@ function displayData2(metal) {
 
   // RT: display day.js todays date
   var today = dayjs();
-  $("#day").text(today.format("MMM D, YYYY"));
+  $("#day").text(today.format("[Today is] MMM D, YYYY [- Current Prices:]"));
 
 
 
