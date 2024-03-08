@@ -65,7 +65,7 @@ function displayData2(metal) {
   $("#day").text(today.format("[Today is] MMM D, YYYY [- Current Prices:]"));
 
 
-
+// CJ: code for youtube video
       tag.src = "https://www.youtube.com/iframe_api";
       var firstScriptTag = document.getElementsByTagName('script')[0];
       firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
@@ -105,7 +105,8 @@ function displayData2(metal) {
 
       
       let map;
-
+      
+// CJ: code for google maps
       async function initMap() {
         // The location of Uluru
         const position = { lat: -25.344, lng: 131.031 };
