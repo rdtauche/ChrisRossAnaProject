@@ -60,6 +60,10 @@ function displayData2(metal) {
 
   }
 
+  // RT: display day.js todays date
+  var today = dayjs();
+  $("#day").text(today.format("MMM D, YYYY"));
+
 
 
       tag.src = "https://www.youtube.com/iframe_api";
