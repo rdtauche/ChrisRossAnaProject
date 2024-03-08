@@ -23,6 +23,13 @@
   width: 100%;
 }
 
+.answer {
+  color: rgb(124, 221, 231);
+  font-size: 25px;
+  margin-left: 4%;
+  font-family: 'Roboto', sans-serif;
+}
+
 /* RT: Navigation Header from ZURB Foundation Framework */
 
 .topbar-center-logo {
