@@ -12,7 +12,7 @@ var silver24k = document.querySelector(".silver24k");
 var tag = document.createElement('script');
 
 var myHeaders = new Headers();
-myHeaders.append("x-access-token", "goldapi-snjrwf2sltf1m8qw-io");
+myHeaders.append("x-access-token", "goldapi-1b3ndsltnpl49a-io");
 myHeaders.append("Content-Type", "application/json");
 
 var requestOptions = {
@@ -107,7 +107,6 @@ function displayData2(metal) {
       
 
       let map;
-      
 // CJ: code for google maps
       async function initMap() {
         const position = { lat: 40.11361407316967, lng: -75.34241537590464 };
