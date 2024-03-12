@@ -17,12 +17,12 @@ Link to full requirements for challenge:  https://bootcampspot.instructure.com/c
 
 ## Installation
 
-    1. The code to deploy is stored at this Github location:  https://github.com/rdtauche/ChrisRossAnaProject
+    1. The code to deploy is stored at this Github location:  https://github.com/rdtauche/TeamRACMetals
     2. Download the code and utilize your SSH key to link it to your github account, then you can begin refactoring the code, ensuring you git add, git commit, git push updates to your repo in github
     3. Once complete, go to pages and deploy the website live
 
 ## My Results
-    1. Our Github Repo:  https://github.com/rdtauche/ChrisRossAnaProject
+    1. Our Github Repo:  https://github.com/rdtauche/TeamRACMetals
     2. Our Pages Deploy: https://rdtauche.github.io/TeamRACMetals/
     3. Screenshot of our live pages site: ![image](https://github.com/rdtauche/ChrisRossAnaProject/assets/57552771/ef504055-3daa-40d2-82dd-b84e6939e3f4)
 
